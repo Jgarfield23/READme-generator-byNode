@@ -1,9 +1,9 @@
 
-# READme-generator-byNode                     
+# README generator                     
 
 ## Description
 
-using node to generate a READme
+its a readme generator
 
 ## Table of Contents
 
@@ -17,11 +17,11 @@ using node to generate a READme
 
 ## Installation
 
-node npm
+by using npm
 
 ## Usage
 
-use npm install
+opening the terminal
 
 ## License
 
@@ -30,14 +30,14 @@ use npm install
 
 ## Contribute
 
-nothing
+n/a
 
 ## Tests
 
-many tests
+testy
 
 ## Questions
 
-GitHub: jgarfield23
+GitHub: username
 Email test@test.com for questions.
 

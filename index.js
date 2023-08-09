@@ -1,9 +1,9 @@
-//Included packages needed for this application
+
 const inquirer = require('inquirer');
 const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown.js');
 
-// Questions array of objects
+
 const questions = [           
             {
                 type: 'input',
@@ -63,18 +63,18 @@ promptUser()
     writeToFile(markdown);
     });
 
-// TODO: writes the read me file
+
 function writeToFile(markdown) {
     return new Promise((resolve, reject) => {
         fs.writeFile('./utils/README.md', markdown, err => {
-            // if there's an error, reject the Promise and send the error to the Promise's `.catch()` method
+           
             if (err) {
                 reject(err);
-            // return out of the function here to make sure the Promise doesn't accidentally execute the resolve() function as well
+     
             return;
             }
     
-            // if everything went well, resolve the Promise and send the successful data to the `.then()` method
+            
             resolve({
             ok: true,
             message: 'File created!'

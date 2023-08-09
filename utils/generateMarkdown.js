@@ -1,4 +1,4 @@
-// licenses
+
 const licensesArray = [
     {
       name: 'Apache',
@@ -22,15 +22,15 @@ const licensesArray = [
     },
 
 ]
-//collects information about licenses
+
 function renderLicenseLink(license) {
-  //if the question is not answered, execute if
+  
   if(license.licenses == ''){
     let licenseShield = '';
     let licenseLink = '';
     let licenseName = '';
     return {licenseShield, licenseLink,  licenseName};
-  //if the question is answered, execute else
+
   } else {
     let liName = licensesArray.find(({name}) => name == license.licenses);
     let licenseShield = liName.shield;
@@ -40,7 +40,7 @@ function renderLicenseLink(license) {
 }
 }
 
-//creates the markdown for the readme.
+
 function generateMarkdown(data) {
   let liName = renderLicenseLink(data);
   let licenseShield = liName.licenseShield;
