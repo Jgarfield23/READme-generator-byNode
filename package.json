@@ -1,0 +1,19 @@
+{
+  "name": "readme-generator-bynode",
+  "version": "0.1.0",
+  "description": "This is a readme generator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "READme"
+  ],
+  "author": "Jarely",
+  "license": "ISC",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
